@@ -70,6 +70,19 @@
             <button type="button" class="btn btn-secondary">Con Reembolso de primas</button>
             <button type="button" class="btn btn-secondary">Sin Hospitalización</button>
             <button type="button" class="btn btn-secondary">Autónomos y pymes</button>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Filtrar</label>
+              </div>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Selecciona...</option>
+                <option value="1">Sin Copagos</option>
+                <option value="2">Con Copagos</option>
+                <option value="3">Con Reembolso de primas</option>
+                <option value="4">Sin Hospitalización</option>
+                <option value="5">Autónomos y pymes</option>
+              </select>
+            </div>
           </div>
           <div class="table-responsive pt-3 pt-sm-4">
             <table class="table table-bordered table-striped text-center">
@@ -204,11 +217,6 @@
             </table>
           </div>
           <div class="btn-container pt-3 pt-sm-4 row mx-0">
-            <button type="button" class="btn btn-danger mx-0 mx-sm-2 col-12 col-sm-3 col-md-2 offset-sm-1 offset-md-3">Eliminar seleccionados</button>
-            <button type="button" class="btn btn-primary mx-0 mx-sm-2 col-12 col-sm-3 col-md-2">Agregar seguro</button>
-            <button type="button" class="btn btn-primary mx-0 mx-sm-2 col-12 col-sm-3 col-md-2">Agregar lista de seguros</button>
-          </div>
-          <div class="btn-container pt-3 pt-sm-4 row mx-0">
             <button type="button" class="btn btn-danger mx-0 mx-sm-2 col-12 col-sm-3 col-md-2">Eliminar seleccionados</button>
             <button type="button" class="btn btn-primary mx-0 mx-sm-2 col-12 col-sm-3 col-md-2">Agregar seguro</button>
             <button type="button" class="btn btn-primary mx-0 mx-sm-2 col-12 col-sm-3 col-md-2">Agregar lista de seguros</button>
@@ -232,19 +240,6 @@
             <a href="#" class="">Contácto</a>
           </li>
         </ul>
-        <!-- <div class="row align-items-center justify-content-between">
-          <div class="order-1 order-sm-0 col-12 col-sm row justify-content-center justify-content-sm-start">
-            <span>© Copyright 2019 - Comparador</span>
-          </div>
-          <ul class="col-12 col-sm row justify-content-center justify-content-sm-end">
-            <li class="ml-3">
-              <a href="#" class="px-2 py-1">Aviso Legal</a>
-            </li>
-            <li class="ml-3">
-              <a href="#" class="px-2 py-1">Contácto</a>
-            </li>
-          </ul>
-        </div> -->
       </div>
     </footer>
     <!-- /  FOOTER -->
