@@ -1,0 +1,8 @@
+#dependencias
+node_modules
+
+package-lock.json
+
+#others
+screens
+src/webfonts/

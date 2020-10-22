@@ -1,0 +1,15 @@
+{
+  "name": "comparador-seguros",
+  "version": "1.0.0",
+  "description": "Mejora en el diseño de comparador (dashboard - admin), utilizando bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch ./src/css -o ./src/css"
+  },
+  "author": "SDanielBS <bernuysergio.12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
